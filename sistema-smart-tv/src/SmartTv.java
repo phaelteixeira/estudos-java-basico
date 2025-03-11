@@ -5,31 +5,31 @@ public class SmartTv {
     int volume = 0;
 
     public void ligar(){ 
-        ligada = true;
+        this.ligada = true;
     }
 
     public void desligar() {
-        ligada = false;
+        this.ligada = false;
     }
 
     public void aumentarVolume(){ 
-        volume++;
+        this.volume++;
     }
 
     public void diminuirVolume(){
-        volume--;
+        this.volume--;
     }
 
     public void aumentarCanal(){
-        canal++;
+        this.canal++;
     }
 
     public void diminuirCanal(){
-        canal--;
+        this.canal--;
     }
 
     public void informarCanal(int novoCanal){
-        canal = novoCanal;
+        this.canal = novoCanal;
     }
 
 }
